@@ -1,6 +1,6 @@
 # tests/test_convert.py
 import unittest
-from puddleext.convert import convert_file, reverse_to_binary
+from puddle_ext.convert import convert_file, reverse_to_binary
 from unittest.mock import patch, MagicMock
 import logging
 import io
@@ -12,17 +12,17 @@ class TestConvertFile(unittest.TestCase):
         # Set up the log capture
         self.log_stream = io.StringIO()
         self.handler = logging.StreamHandler(self.log_stream)
-        logger = logging.getLogger('puddle')
+        logger = logging.getLogger('puddle_ext')
         logger.addHandler(self.handler)
         logger.setLevel(logging.DEBUG)
 
     def tearDown(self):
         # Clean up the log capture
-        logger = logging.getLogger('puddle')
+        logger = logging.getLogger('puddle_ext')
         logger.removeHandler(self.handler)
         self.log_stream.close()
 
-    @patch('puddle.convert.Image.open')
+    @patch('puddle_ext.convert.Image.open')
     def test_convert_file(self, mock_open):
         # Mock image and image data
         mock_image = mock_open.return_value.__enter__.return_value

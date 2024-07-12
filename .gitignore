@@ -3,3 +3,4 @@ puddle_ext.egg-info/
 .pytest_cache/
 *.puddle
 dist/
+__pycache__/
