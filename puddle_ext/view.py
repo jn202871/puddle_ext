@@ -2,7 +2,7 @@
 from PIL import Image
 import os
 from . import logger
-from puddleext.convert import reverse_to_binary
+from puddle_ext.convert import reverse_to_binary
 
 def view_file(input_file):
     if not input_file.lower().endswith('.puddle'):

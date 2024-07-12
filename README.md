@@ -3,14 +3,9 @@ A simple python package to translate png files to puddle files. Puddle files are
 
 ## Installation
 
-To install Puddle, first download the repository:
+To install Puddle, use pip:
 ```bash
-git clone https://github.com/jn202871/puddle
-```
-Then use pip to install the package:
-```bash
-cd puddle
-pip install .
+pip install puddle-ext
 ```
 
 ## Usage
