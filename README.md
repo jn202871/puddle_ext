@@ -22,4 +22,4 @@ puddle view example.puddle
 ```
 
 ## License
-This project is licensed under the MIT License.
+This project is licensed under the MIT License. View the license in [LICENSE.md](LICENSE.md)
