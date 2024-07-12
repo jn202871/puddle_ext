@@ -1,5 +1,5 @@
 build/
-puddle.egg-info/
+puddle_ext.egg-info/
 .pytest_cache/
 *.puddle
 dist/
