@@ -4,3 +4,4 @@ puddle_ext.egg-info/
 *.puddle
 dist/
 __pycache__/
+*.png
